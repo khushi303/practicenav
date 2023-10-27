@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+// import { Route, Routes } from 'react-router-dom';
+// import Header from './components/Header';
+// import About from './components/About';
+// import Contact from './components/Contact';
+// import Faq from './components/Faq';
+// import Help from './components/Help';
+
+import Forpractice from './components/Forpractice';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Routes>
+        <Route path='/' element={<Header />}></Route>
+        <Route path='/About' exact element={<About />}></Route>
+        <Route path='/Contact' exact element={<Contact />}></Route>
+        <Route path='/Faq' exact element={<Faq />}></Route>
+        <Route path='/Help' exact element={<Help />}></Route>
+      </Routes>
+      <About /> */}
+      <Forpractice />
     </div>
   );
 }
